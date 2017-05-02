@@ -1,4 +1,4 @@
-# Matt Smith's Dotfiles
+# My Dotfiles
 
 My original dotfiles came from a fork of a colleague of mine. I've learned a
 lot since that time, and now it's time to start again from scratch with my own
