@@ -1,18 +1,15 @@
 {
-  "name": "matts-dotfiles",
+  "name": "josh-dotfiles",
   "version": "0.0.0",
   "private": true,
-  "description": "Matt Smith's dotfiles",
+  "description": "My dotfiles",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mtscout6/nextgen-dotfiles.git"
+    "url": "git+https://github.com/shermanjoshua/dotfiles.git"
   },
   "author": "Matthew L Smith <mtscout6@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mtscout6/nextgen-dotfiles/issues"
-  },
-  "homepage": "https://github.com/mtscout6/nextgen-dotfiles#readme",
+  "homepage": "https://github.com/shermanjoshua/dotfiles#readme",
   "scripts": {
     "postinstall": "./npm-module-aliases"
   },
