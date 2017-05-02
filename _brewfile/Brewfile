@@ -1,0 +1,78 @@
+
+# tap repositories and their packages
+
+tap argon/mas
+brew mas
+
+tap atlassian/tap
+brew atlassian-plugin-sdk
+
+tap caskroom/cask
+cask alfred
+cask discord
+cask gitter
+cask hipchat
+cask iterm2
+cask p4merge
+cask rocket-chat
+cask skype
+cask slack
+cask sourcetree
+cask ubersicht
+cask vagrant
+
+tap caskroom/fonts
+
+tap homebrew/bundle
+
+tap homebrew/core
+brew autoconf
+brew automake
+brew cmake
+brew doxygen
+brew gdbm
+brew gettext
+brew git
+brew jemalloc
+brew libevent
+brew libtermkey
+brew libtool
+brew libuv
+brew libvterm
+brew libyaml
+brew msgpack
+brew n
+brew node
+brew openssl
+brew perl
+brew pkg-config
+brew python
+brew readline
+brew reattach-to-user-namespace
+brew ruby
+brew sqlite
+brew thefuck
+brew tmux
+brew unibilium
+brew vim
+
+tap homebrew/dupes
+brew apple-gcc42
+
+tap homebrew/versions
+
+tap neovim/neovim
+
+tap rcmdnk/file
+brew brew-file
+
+# App Store applications
+appstore 405843582 Alfred (1.2)
+appstore 682658836 GarageBand (10.1.5)
+appstore 409183694 Keynote (7.0.5)
+appstore 715768417 Microsoft Remote Desktop (8.0.27246)
+appstore 409203825 Numbers (4.0.5)
+appstore 409201541 Pages (6.0.5)
+appstore 1176895641 Spark (1.1.0)
+appstore 497799835 Xcode (8.2.1)
+appstore 408981434 iMovie (10.1.4)

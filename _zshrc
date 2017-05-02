@@ -1,0 +1,46 @@
+# Path to your oh-my-zsh installation.
+export ZSH=$HOME/.oh-my-zsh
+
+# Define editor preference
+export EDITOR=vim
+
+# Set name of the theme to load.
+# Look in ~/.oh-my-zsh/themes/
+# Optionally, if you set this to "random", it'll load a random theme each
+# time that oh-my-zsh is loaded.
+ZSH_THEME="robbyrussell"
+
+# Aliases
+for f in ~/.zsh-config/aliases/*
+do
+  source $f
+done
+
+plugins=(git docker vi-mode brew jira npm)
+
+source $ZSH/oh-my-zsh.sh
+
+# Bin provided in dotfiles
+export PATH="$HOME/.bin:$PATH"
+export PATH="$HOME/.bin/mac:$PATH"
+
+# Bin for Homebrew
+export PATH="/usr/local/sbin:$PATH"
+
+# Bin from dotfiles/node_modules/.bin
+export PATH="$(ls -l ~/.zshrc | cut -f2- -d'>' | awk '{gsub(/^ +| +$/,"")} {print $0}' | awk '{gsub(/_zshrc$/,"node_modules/.bin")} {print $0}'):$PATH"
+
+# Private variables to set IE:
+# - HOMEBREW_GITHUB_API_TOKEN
+# - JIRA_URL
+source ~/.zsh-config/zshrc_private
+
+# VI Command Line
+bindkey -v
+
+# SSH Agent Setup
+source ~/.zsh-config/ssh-agent
+
+# TheFuck alias configuration
+eval $(thefuck --alias)
+eval $(/usr/libexec/path_helper -s)
