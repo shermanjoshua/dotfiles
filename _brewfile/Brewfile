@@ -55,9 +55,9 @@ brew thefuck
 brew tmux
 brew unibilium
 brew vim
+brew apple-gcc42
 
 tap homebrew/dupes
-brew apple-gcc42
 
 tap homebrew/versions
 
@@ -68,11 +68,9 @@ brew brew-file
 
 # App Store applications
 appstore 405843582 Alfred (1.2)
-appstore 682658836 GarageBand (10.1.5)
-appstore 409183694 Keynote (7.0.5)
+# appstore 409183694 Keynote (7.0.5)
 appstore 715768417 Microsoft Remote Desktop (8.0.27246)
-appstore 409203825 Numbers (4.0.5)
-appstore 409201541 Pages (6.0.5)
+# appstore 409203825 Numbers (4.0.5)
+# appstore 409201541 Pages (6.0.5)
 appstore 1176895641 Spark (1.1.0)
-appstore 497799835 Xcode (8.2.1)
-appstore 408981434 iMovie (10.1.4)
+# appstore 497799835 Xcode (8.2.1)
