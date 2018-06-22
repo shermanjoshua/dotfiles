@@ -41,6 +41,8 @@ bindkey -v
 # SSH Agent Setup
 source ~/.zsh-config/ssh-agent
 
-# TheFuck alias configuration
-eval $(thefuck --alias)
-eval $(/usr/libexec/path_helper -s)
+
+# Aegis Config Files Path
+export AEGIS_CONFIG_PATH="$HOME/Projects/GlobalConfig/"
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"

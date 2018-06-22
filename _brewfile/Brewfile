@@ -1,11 +1,46 @@
 
 # tap repositories and their packages
 
-tap argon/mas
+tap homebrew/core
+brew apple-gcc42
+brew autoconf
+brew automake
+brew cmake
+brew doxygen
+brew gdbm
+brew gettext
+brew git
+brew icu4c
+brew jemalloc
+brew libevent
+brew libtermkey
+brew libtool
+brew libuv
+brew libvterm
+brew libyaml
 brew mas
+brew msgpack
+brew n
+brew node
+brew openssl
+brew perl
+brew pkg-config
+brew python
+brew readline
+brew reattach-to-user-namespace
+brew ruby
+brew sqlite
+brew tmux
+brew unibilium
+brew vim
+brew xz
+brew yarn --without-node
 
-tap atlassian/tap
-brew atlassian-plugin-sdk
+tap homebrew/bundle
+
+tap homebrew/dupes
+
+tap homebrew/versions
 
 tap caskroom/cask
 cask alfred
@@ -23,43 +58,10 @@ cask vagrant
 
 tap caskroom/fonts
 
-tap homebrew/bundle
+tap argon/mas
 
-tap homebrew/core
-brew autoconf
-brew automake
-brew cmake
-brew doxygen
-brew gdbm
-brew gettext
-brew git
-brew jemalloc
-brew libevent
-brew libtermkey
-brew libtool
-brew libuv
-brew libvterm
-brew libyaml
-brew msgpack
-brew n
-brew node
-brew openssl
-brew perl
-brew pkg-config
-brew python
-brew readline
-brew reattach-to-user-namespace
-brew ruby
-brew sqlite
-brew thefuck
-brew tmux
-brew unibilium
-brew vim
-brew apple-gcc42
-
-tap homebrew/dupes
-
-tap homebrew/versions
+tap atlassian/tap
+brew atlassian-plugin-sdk
 
 tap neovim/neovim
 
@@ -68,9 +70,5 @@ brew brew-file
 
 # App Store applications
 appstore 405843582 Alfred (1.2)
-# appstore 409183694 Keynote (7.0.5)
 appstore 715768417 Microsoft Remote Desktop (8.0.27246)
-# appstore 409203825 Numbers (4.0.5)
-# appstore 409201541 Pages (6.0.5)
 appstore 1176895641 Spark (1.1.0)
-# appstore 497799835 Xcode (8.2.1)
