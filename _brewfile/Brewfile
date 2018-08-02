@@ -2,7 +2,6 @@
 # tap repositories and their packages
 
 tap homebrew/core
-#brew apple-gcc42
 brew autoconf
 brew automake
 brew cmake
@@ -38,20 +37,15 @@ brew yarn --without-node
 
 tap homebrew/bundle
 
-#tap homebrew/dupes
-
-#tap homebrew/versions
-
 tap caskroom/cask
 cask alfred
 cask discord
 cask gitter
 cask hipchat
 cask iterm2
-#cask p4merge
 cask rocket-chat
 cask skype
-#cask slack
+cask slack
 cask sourcetree
 cask ubersicht
 cask vagrant
