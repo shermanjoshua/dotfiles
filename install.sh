@@ -19,7 +19,7 @@ link_file() {
 
 for i in _*
 do
-  link_file i
+  link_file $i
 done
 
 # Install Homebrew and Brew-File

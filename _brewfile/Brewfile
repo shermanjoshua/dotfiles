@@ -37,30 +37,34 @@ brew yarn --without-node
 
 tap homebrew/bundle
 
-tap caskroom/cask
+tap homebrew/cask
 cask alfred
-cask discord
 cask gitter
-cask hipchat
 cask iterm2
-cask rocket-chat
 cask skype
-cask slack
 cask sourcetree
-cask ubersicht
 cask vagrant
-
-tap caskroom/fonts
 
 tap argon/mas
 
 tap atlassian/tap
 brew atlassian-plugin-sdk
 
+tap caskroom/cask
+
+tap caskroom/fonts
+
 tap neovim/neovim
 
 tap rcmdnk/file
 brew brew-file
+
+# Other Cask applications
+cask discord
+cask hipchat
+cask rocket-chat
+cask slack
+cask ubersicht
 
 # App Store applications
 appstore 405843582 Alfred (1.2)
