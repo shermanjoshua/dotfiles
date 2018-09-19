@@ -33,7 +33,7 @@ export PATH="$(ls -l ~/.zshrc | cut -f2- -d'>' | awk '{gsub(/^ +| +$/,"")} {prin
 # Private variables to set IE:
 # - HOMEBREW_GITHUB_API_TOKEN
 # - JIRA_URL
-source ~/.zsh-config/zshrc_private
+# source ~/.zsh-config/zshrc_private
 
 # VI Command Line
 bindkey -v

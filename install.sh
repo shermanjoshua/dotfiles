@@ -48,3 +48,6 @@ fi
 
 # Install npm "global" modules
 npm install
+
+# Workaround for now, copy tmux-vim-select-pane manually
+sudo cp ./_bin/tmux-vim-select-pane /usr/local/bin
