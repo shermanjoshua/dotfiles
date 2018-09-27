@@ -18,6 +18,7 @@ brew libuv
 brew libvterm
 brew libyaml
 brew mas
+brew mono
 brew msgpack
 brew n
 brew node
