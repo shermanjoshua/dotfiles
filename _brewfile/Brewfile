@@ -79,7 +79,6 @@ brew openssl
 
 # Other Cask applications
 cask discord
-cask hipchat
 cask powershell
 cask skype
 cask sourcetree
