@@ -4,25 +4,37 @@
 tap homebrew/core
 brew autoconf
 brew automake
+brew azure-cli
+brew cake
 brew cmake
+brew docker
 brew doxygen
+brew gcc
 brew gdbm
 brew gettext
 brew git
+brew gmp
 brew icu4c
+brew isl
 brew jemalloc
 brew libevent
+brew libidn2
+brew libmpc
 brew libtermkey
 brew libtool
+brew libunistring
 brew libuv
 brew libvterm
 brew libyaml
+brew lua
 brew mas
 brew mono
+brew mpfr
 brew msgpack
 brew n
+brew ncurses
 brew node
-brew openssl
+brew pcre2
 brew perl
 brew pkg-config
 brew python
@@ -33,41 +45,51 @@ brew sqlite
 brew tmux
 brew unibilium
 brew vim
+brew wget
 brew xz
-brew yarn --without-node
+brew yarn
 
 tap homebrew/bundle
+
+tap homebrew/cask-fonts
+
+tap homebrew/cask-versions
+cask powershell-preview
 
 tap homebrew/cask
 cask alfred
 cask gitter
 cask iterm2
-cask skype
-cask sourcetree
-cask vagrant
+cask rocket-chat
+cask slack
+cask ubersicht
 
 tap argon/mas
 
 tap atlassian/tap
 brew atlassian-plugin-sdk
 
-tap caskroom/cask
-
-tap caskroom/fonts
-
 tap neovim/neovim
 
 tap rcmdnk/file
 brew brew-file
 
+# Other Homebrew packages
+brew openssl
+
 # Other Cask applications
 cask discord
 cask hipchat
-cask rocket-chat
-cask slack
-cask ubersicht
+cask powershell
+cask skype
+cask sourcetree
+cask vagrant
 
 # App Store applications
-appstore 405843582 Alfred (1.2)
-appstore 715768417 Microsoft Remote Desktop (8.0.27246)
-appstore 1176895641 Spark (1.1.0)
+appstore 405843582 com.alfredapp.Alfred (1.2)
+appstore 497799835 com.apple.dt.Xcode (10.2.1)
+appstore 715768417 com.microsoft.rdc.mac (8.0.30030)
+appstore 1295203466 com.microsoft.rdc.macos (10.2.12)
+appstore 1176895641 com.readdle.smartemail-Mac (2.3.2)
+appstore 973134470 com.xwavesoft.pomodoromaclite (1.7.5)
+appstore 425424353 cx.c3.theunarchiver (4.1.0)
