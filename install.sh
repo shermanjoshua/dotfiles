@@ -29,7 +29,7 @@ curl -fsSL https://raw.github.com/rcmdnk/homebrew-file/install/install.sh | sh
 brew file install
 
 # Change default shell to ZSH
-if [ ! $SHELL -eq "/bin/zsh" ]
+if [ ! $SHELL = "/bin/zsh" ]
 then
   chsh -s /bin/zsh
 fi
