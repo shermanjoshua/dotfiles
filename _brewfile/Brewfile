@@ -5,21 +5,34 @@ tap homebrew/core
 brew autoconf
 brew automake
 brew azure-cli
+brew berkeley-db
+brew brotli
+brew c-ares
 brew cake
 brew cmake
+brew cscope
+brew curl
 brew docker
+brew dos2unix
+brew dotnet
 brew doxygen
 brew gcc
 brew gdbm
 brew gettext
 brew git
+brew git-gui
+brew git-lfs
 brew gmp
+brew go
 brew icu4c
 brew isl
 brew jemalloc
+brew libev
 brew libevent
 brew libidn2
+brew libmetalink
 brew libmpc
+brew libssh2
 brew libtermkey
 brew libtool
 brew libunistring
@@ -27,27 +40,40 @@ brew libuv
 brew libvterm
 brew libyaml
 brew lua
+brew m4
+brew macvim --HEAD
 brew mas
 brew mono
+brew mpdecimal
 brew mpfr
 brew msgpack
 brew n
 brew ncurses
+brew nghttp2
 brew node
+brew openldap
+brew openssl@1.1
+brew pcre
 brew pcre2
 brew perl
 brew pkg-config
-brew python
+brew python@3.8
+brew python@3.9
 brew readline
 brew reattach-to-user-namespace
+brew rtmpdump
 brew ruby
+brew sphinx-doc
 brew sqlite
+brew tcl-tk
+brew the_silver_searcher
 brew tmux
 brew unibilium
-brew vim
+brew utf8proc
 brew wget
 brew xz
 brew yarn
+brew zstd
 
 tap homebrew/bundle
 
@@ -58,11 +84,17 @@ cask powershell-preview
 
 tap homebrew/cask
 cask alfred
+cask discord
+cask dotnet-sdk
 cask gitter
 cask iterm2
+cask powershell
 cask rocket-chat
+cask skype
 cask slack
+cask sourcetree
 cask ubersicht
+cask vagrant
 
 tap argon/mas
 
@@ -74,21 +106,18 @@ tap neovim/neovim
 tap rcmdnk/file
 brew brew-file
 
-# Other Homebrew packages
-brew openssl
-
 # Other Cask applications
-cask discord
-cask powershell
-cask skype
-cask sourcetree
-cask vagrant
+cask hipchat
 
 # App Store applications
-appstore 405843582 com.alfredapp.Alfred (1.2)
-appstore 497799835 com.apple.dt.Xcode (10.2.1)
-appstore 715768417 com.microsoft.rdc.mac (8.0.30030)
-appstore 1295203466 com.microsoft.rdc.macos (10.2.12)
-appstore 1176895641 com.readdle.smartemail-Mac (2.3.2)
-appstore 973134470 com.xwavesoft.pomodoromaclite (1.7.5)
-appstore 425424353 cx.c3.theunarchiver (4.1.0)
+appstore 1402042596  AdBlock                   (1.28.2)
+appstore 1037126344  Apple Configurator 2      (2.14)
+appstore 408981434   iMovie                    (10.2.4)
+appstore 926036361   LastPass                  (4.4.0)
+appstore 1295203466  Microsoft Remote Desktop  (10.6.7)
+appstore 715768417   Microsoft Remote Desktop  (8.0.30030)
+appstore 1274495053  Microsoft To Do           (2.47)
+appstore 1475824389  OneLogin for Safari       (3.5.5)
+appstore 1176895641  Spark                     (2.10.0)
+appstore 425424353   The Unarchiver            (4.3.3)
+appstore 497799835   Xcode                     (12.5.1)
