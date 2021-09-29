@@ -50,7 +50,6 @@ brew msgpack
 brew n
 brew ncurses
 brew nghttp2
-brew node
 brew openldap
 brew openssl@1.1
 brew pcre
@@ -89,7 +88,6 @@ cask dotnet-sdk
 cask gitter
 cask iterm2
 cask powershell
-cask rocket-chat
 cask skype
 cask slack
 cask sourcetree
@@ -97,9 +95,6 @@ cask ubersicht
 cask vagrant
 
 tap argon/mas
-
-tap atlassian/tap
-brew atlassian-plugin-sdk
 
 tap neovim/neovim
 
@@ -112,12 +107,10 @@ cask hipchat
 # App Store applications
 appstore 1402042596  AdBlock                   (1.28.2)
 appstore 1037126344  Apple Configurator 2      (2.14)
-appstore 408981434   iMovie                    (10.2.4)
 appstore 926036361   LastPass                  (4.4.0)
 appstore 1295203466  Microsoft Remote Desktop  (10.6.7)
 appstore 715768417   Microsoft Remote Desktop  (8.0.30030)
 appstore 1274495053  Microsoft To Do           (2.47)
-appstore 1475824389  OneLogin for Safari       (3.5.5)
 appstore 1176895641  Spark                     (2.10.0)
 appstore 425424353   The Unarchiver            (4.3.3)
 appstore 497799835   Xcode                     (12.5.1)
