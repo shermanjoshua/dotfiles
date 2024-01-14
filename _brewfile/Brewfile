@@ -8,7 +8,6 @@ brew azure-cli
 brew berkeley-db
 brew brotli
 brew c-ares
-brew cake
 brew cmake
 brew cscope
 brew curl
@@ -41,7 +40,6 @@ brew libvterm
 brew libyaml
 brew lua
 brew m4
-brew macvim --HEAD
 brew mas
 brew mono
 brew mpdecimal
@@ -79,20 +77,14 @@ tap homebrew/bundle
 tap homebrew/cask-fonts
 
 tap homebrew/cask-versions
-cask powershell-preview
 
 tap homebrew/cask
 cask alfred
 cask discord
 cask dotnet-sdk
-cask gitter
 cask iterm2
 cask powershell
-cask skype
-cask slack
-cask sourcetree
 cask ubersicht
-cask vagrant
 
 tap argon/mas
 
@@ -102,15 +94,8 @@ tap rcmdnk/file
 brew brew-file
 
 # Other Cask applications
-cask hipchat
 
 # App Store applications
-appstore 1402042596  AdBlock                   (1.28.2)
-appstore 1037126344  Apple Configurator 2      (2.14)
-appstore 926036361   LastPass                  (4.4.0)
-appstore 1295203466  Microsoft Remote Desktop  (10.6.7)
-appstore 715768417   Microsoft Remote Desktop  (8.0.30030)
-appstore 1274495053  Microsoft To Do           (2.47)
-appstore 1176895641  Spark                     (2.10.0)
+
 appstore 425424353   The Unarchiver            (4.3.3)
 appstore 497799835   Xcode                     (12.5.1)

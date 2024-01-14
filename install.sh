@@ -26,21 +26,24 @@ done
 # https://github.com/rcmdnk/homebrew-file
 curl -fsSL https://raw.github.com/rcmdnk/homebrew-file/install/install.sh | sh
 
-brew file install
+brew file install -f ./_brewfile/Brewfile
 
 # Change default shell to ZSH
+echo "Change shell to ZSH...."
 if [ ! $SHELL = "/bin/zsh" ]
 then
   chsh -s /bin/zsh
 fi
 
 # Vim Package Manager Install
+echo "Installing neobundle!!!"
 if [ ! -d $HOME/.vim/bundle/neobundle.vim ]
 then
-  git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+  git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 fi
 
 # Install Oh-My-ZSH
+echo "Installing oh-my-zsh!!!"
 if [ ! -d $HOME/.oh-my-zsh ]
 then
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
