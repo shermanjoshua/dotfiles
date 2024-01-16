@@ -45,7 +45,6 @@ brew mono
 brew mpdecimal
 brew mpfr
 brew msgpack
-brew n
 brew ncurses
 brew nghttp2
 brew openldap
