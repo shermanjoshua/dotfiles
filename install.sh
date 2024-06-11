@@ -23,10 +23,9 @@ do
 done
 
 # Install Homebrew and Brew-File
-# https://github.com/rcmdnk/homebrew-file
-curl -fsSL https://raw.github.com/rcmdnk/homebrew-file/install/install.sh | sh
 
-brew file install -f ./_brewfile/Brewfile
+brew install rcmdnk/file/brew-file
+brew file install ./_brewfile/Brewfile
 
 # Change default shell to ZSH
 echo "Change shell to ZSH...."
@@ -49,8 +48,6 @@ then
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 fi
 
-# Install npm "global" modules
-npm install
-
 # Workaround for now, copy tmux-vim-select-pane manually
-sudo cp ./_bin/tmux-vim-select-pane /usr/local/bin
+echo "Moving tmux-vim-select-pane. If you aren't root, you're gonna be sad..."
+sudo cp ./_bin/tmux-vim-select-pane /opt/homebrew/bin

@@ -90,7 +90,7 @@ tap argon/mas
 tap neovim/neovim
 
 tap rcmdnk/file
-brew brew-file
+update brew-file
 
 # Other Cask applications
 

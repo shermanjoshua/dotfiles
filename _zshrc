@@ -25,7 +25,7 @@ export PATH="$HOME/.bin:$PATH"
 export PATH="$HOME/.bin/mac:$PATH"
 
 # Bin for Homebrew
-export PATH="/usr/local/sbin:$PATH"
+export PATH="/opt/homebrew/sbin:$PATH"
 
 # Bin from dotfiles/node_modules/.bin
 export PATH="$(ls -l ~/.zshrc | cut -f2- -d'>' | awk '{gsub(/^ +| +$/,"")} {print $0}' | awk '{gsub(/_zshrc$/,"node_modules/.bin")} {print $0}'):$PATH"
@@ -42,4 +42,7 @@ bindkey -v
 source ~/.zsh-config/ssh-agent
 
 # export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-eval "$(~/.rbenv/bin/rbenv init - zsh)"
+export PATH="$HOME/.rbenv/bin:$PATH"
+# eval "$(~/.rbenv/bin/rbenv init - zsh)"
+eval "$(rbenv init -)"
+eval "$(direnv hook zsh)"

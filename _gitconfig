@@ -2,10 +2,10 @@
 
 [user]
   name = Josh Sherman
-  email = sherman.joshua@gmail.com
+  email = josh.sherman@textus.com
 
 [github]
-  user = shermanjoshua
+  user = jsherman-textus
 
 [core]
   editor = vim
