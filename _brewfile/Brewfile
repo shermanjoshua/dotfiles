@@ -1,4 +1,3 @@
-
 # tap repositories and their packages
 
 tap homebrew/core
@@ -41,10 +40,10 @@ brew libyaml
 brew lua
 brew m4
 brew mas
-brew mono
 brew mpdecimal
 brew mpfr
 brew msgpack
+brew n
 brew ncurses
 brew nghttp2
 brew openldap
@@ -53,7 +52,6 @@ brew pcre
 brew pcre2
 brew perl
 brew pkg-config
-brew python@3.8
 brew python@3.9
 brew readline
 brew reattach-to-user-namespace
@@ -68,33 +66,23 @@ brew unibilium
 brew utf8proc
 brew wget
 brew xz
-brew yarn
 brew zstd
 
 tap homebrew/bundle
 
-tap homebrew/cask-fonts
-
-tap homebrew/cask-versions
-
 tap homebrew/cask
+
 cask alfred
-cask discord
 cask dotnet-sdk
 cask iterm2
 cask powershell
-cask ubersicht
 
 tap argon/mas
 
 tap neovim/neovim
-
-tap rcmdnk/file
-update brew-file
 
 # Other Cask applications
 
 # App Store applications
 
 appstore 425424353   The Unarchiver            (4.3.3)
-appstore 497799835   Xcode                     (12.5.1)

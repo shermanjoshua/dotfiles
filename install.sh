@@ -25,7 +25,7 @@ done
 # Install Homebrew and Brew-File
 
 brew install rcmdnk/file/brew-file
-brew file install ./_brewfile/Brewfile
+brew file install -f ./_brewfile/Brewfile
 
 # Change default shell to ZSH
 echo "Change shell to ZSH...."
