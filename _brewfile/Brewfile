@@ -75,6 +75,7 @@ tap homebrew/cask
 cask alfred
 cask dotnet-sdk
 cask iterm2
+cask p4v
 cask powershell
 
 tap argon/mas
