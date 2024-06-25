@@ -78,8 +78,6 @@ cask iterm2
 cask p4v
 cask powershell
 
-tap argon/mas
-
 tap neovim/neovim
 
 # Other Cask applications

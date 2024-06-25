@@ -3,6 +3,8 @@
 filetype off
 filetype plugin indent off
 
+packadd lsp
+
 " Increase timeout for YouCompleteMe
 let g:neobundle#install_process_timeout=300
 
