@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/Users/joshsherman/Projects/tesseract'
 let g:netrw_dirhist_8='/Users/joshsherman/Projects/sms_app'
 let g:netrw_dirhist_7='/Users/joshsherman/.ssh'
 let g:netrw_dirhist_6='/Users/joshsherman/Projects/tesseract/ui_packages/web-app'
