@@ -6,23 +6,23 @@ filetype plugin indent off
 packadd lsp
 
 " Increase timeout for YouCompleteMe
-let g:neobundle#install_process_timeout=300
+"let g:neobundle#install_process_timeout=300
 
-if has('vim_starting')
-  set nocompatible
-  set runtimepath+=~/.vim/bundle/neobundle.vim/
-  set runtimepath+=~/.vim/rc/plugins/
-endif
+"if has('vim_starting')
+  "set nocompatible
+  "set runtimepath+=~/.vim/bundle/neobundle.vim/
+  "set runtimepath+=~/.vim/rc/plugins/
+"endif
 
-call neobundle#begin(expand('~/.vim/bundle/'))
+"call neobundle#begin(expand('~/.vim/bundle/'))
 
-NeoBundleFetch 'Shougo/neobundle.vim'
+"NeoBundleFetch 'Shougo/neobundle.vim'
 
-runtime! rc/plugins/*.vim
+"runtime! rc/plugins/*.vim
 
-call neobundle#end()
+"call neobundle#end()
 
-filetype plugin indent on
-syntax on
+"filetype plugin indent on
+"syntax on
 
-NeoBundleCheck
+"NeoBundleCheck
